@@ -1,16 +1,36 @@
-# taskmanager
+# Task Manager
 
-A new Flutter project.
+## Overview
+Task Manager is a Flutter project designed to help users manage and organize their tasks efficiently.
+
+## Requirements
+- Flutter SDK: 3.13.6
+- Dart SDK: (compatible with Flutter SDK version)
+
 
 ## Getting Started
+Follow these steps to get the project up and running on your local machine.
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/soneev/taskmanager.git
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Navigate to the project directory:**
+    ```bash
+    cd taskmanager
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. **Run the application:**
+    ```bash
+    flutter run
+    ```
+
+
+
+
