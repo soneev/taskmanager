@@ -81,6 +81,13 @@ class AddNewTaskController extends GetxController with SnackbarMixin {
     update();
   }
 
+  Future<void> deleteItem(int itemKey) async {
+    await _taskBox.delete(itemKey);
+    _refreshItems();
+    showdeletSnackbar(title: "Deleted !", message: "task successfully deleted");
+    update();
+  }
+
   @override
   void onInit() {
     _refreshItems();

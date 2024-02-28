@@ -75,7 +75,9 @@ class TaskScreen extends StatelessWidget {
                             Icons.delete,
                             color: Colors.red,
                           ),
-                          onPress: () {},
+                          onPress: () {
+                            controller.deleteItem(item['key']);
+                          },
                           backgroudColor: Colors.transparent,
                         ),
                       ],
@@ -110,7 +112,7 @@ class TaskScreen extends StatelessWidget {
                                   //       )
                                   //     :
                                   controller.taskStatus.value == false
-                                      ? Icon(
+                                      ? const Icon(
                                           Icons.incomplete_circle,
                                           color: AppColors.primaryViolet,
                                           size: 20,

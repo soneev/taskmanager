@@ -25,7 +25,7 @@ class UpdateTask extends StatelessWidget {
       appBar: CustomAppBar(
           leading: GestureDetector(
               onTap: () {
-                print(arguments.toString());
+                Get.back();
               },
               child: const Icon(
                 Icons.arrow_back_ios_new,
